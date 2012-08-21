@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="assets/css/docs.css" rel="stylesheet">
+    <link href="assets/js/google-code-prettify/prettify.css" rel="stylesheet">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le fav and touch icons -->
+    <link rel="shortcut icon" href="assets/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
+
+  </head>
+
+  <body data-spy="scroll" data-target=".subnav" data-offset="50">
+
+
+  <!-- Navbar
+    ================================================== -->
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <button type="button"class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="brand" href="./index.html">MAT</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li class="active">
+                <a href="./index.html">Home</a>
+              </li>
+              <li class="">
+                <a href="./scaffolding.html">Mutation</a>
+              </li>
+              <li class="">
+                <a href="./base-css.html">Annotate</a>
+              </li>
+              
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+
+<!-- Masthead
+================================================== -->
+<header class="jumbotron masthead">
+  <div class="inner">
+    <h1>MAT</h1>
+    <p>Mutation Analysis Tool.</p>
+   
+
+</header>
+
+
+<hr class="soften">
+
+<div class="marketing">
+  <h1>Login</h1>
+  <p class="marketing-byline">Login to access your data!</p>
+  <div class="row">
+	 <div class="span4 offset4">
+      <html>
+			<head>
+				<? include "index_header.php"; ?>
+				<meta http-equiv="X-UA-Compatible" content="IE=9"> </meta>
+
+				<link rel="icon" href="favicon.ico" type="image/x-icon"> 
+				<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+				<link rel="stylesheet" type="text/css" href="styles/index.css">
+				<link rel="stylesheet" type="text/css" href="styles/main.css">
+
+				<script type="text/javascript" src="scripts/formChecking.js"></script>
+				<script type="text/javascript" src="scripts/index.js"></script>
+			</head>
+		</html>
+	
+
+  <!-- TITLE -->
+  
+  
+  <!-- FORM -->
+  <form name="inputLogin" action="login/loginCheck.php" method="POST" id="loginForm">
+    <span class="formLabel">Username</span>
+    <input class="inputBoxStyle" id="username" type="text" name="username" onkeydown="clearIndexPageInputs()"/>
+    <br/><br/>
+    
+    <span class="formLabel">Password</span>
+    <input class="inputBoxStyle" id="password" type="password" name="password" onkeydown="clearIndexPageInputs()"/>
+    <br/><br/>
+    
+    <input class="submitButton" id="indexSubmitButton" type="submit" value="Start" />
+    </br>
+    
+    <a href="register/register.php" id="notRegistered" class="smallLink">Not Registered?</a>
+  </form>
+  </div>
+  </div>
+</body>
+</html>
+
+  
+
+
+
+
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/google-code-prettify/prettify.js"></script>
+    <script src="assets/js/bootstrap-transition.js"></script>
+    <script src="assets/js/bootstrap-alert.js"></script>
+    <script src="assets/js/bootstrap-modal.js"></script>
+    <script src="assets/js/bootstrap-dropdown.js"></script>
+    <script src="assets/js/bootstrap-scrollspy.js"></script>
+    <script src="assets/js/bootstrap-tab.js"></script>
+    <script src="assets/js/bootstrap-tooltip.js"></script>
+    <script src="assets/js/bootstrap-popover.js"></script>
+    <script src="assets/js/bootstrap-button.js"></script>
+    <script src="assets/js/bootstrap-collapse.js"></script>
+    <script src="assets/js/bootstrap-carousel.js"></script>
+    <script src="assets/js/bootstrap-typeahead.js"></script>
+    <script src="assets/js/application.js"></script>
+
+
+  </body>
+</html>
