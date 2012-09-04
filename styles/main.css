@@ -1,0 +1,198 @@
+/* */
+body {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  background-color: #2298B8; /*Blue hue*/
+  /* background-image: url('../images/background.jpg'); */
+}
+
+body,p,h1,h2,h3,h4,table,td,th,ul,ol,span,text-area,input{
+  font-family:"lucida grande",tahoma,verdana,arial,sans-serif;
+}
+
+hr {
+  color:white;
+  background-color:white;
+  height:2px;
+  border:none;
+}
+
+.shadow {
+-moz-box-shadow: 0px 0px 10px 2px #111;
+-webkit-box-shadow: 0px 0px 10px 2px #111;
+box-shadow: 0px 0px 10px 2px #111;
+}
+
+.textShadow {
+  text-shadow: 0px 0px 7px #111;
+
+  
+}
+
+.roundCorners {
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;  
+  border-radius: 15px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a.normalLink:hover {
+  text-decoration: underline;
+}
+
+a.smallLink {
+  position: relative;
+  font-weight: normal;
+  
+  font-size: 12px;
+}
+
+a.smallLink:hover {
+  text-decoration: underline;
+}
+
+div.pageTitle {
+  position: relative;
+  width: 700px;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  
+  text-align: center;
+  font-size:50px;  
+  font-weight:bold;
+  color:white;
+  
+  border-style: solid;
+  border-width: 0px;
+  border-color: white;
+}
+
+/* Main portion */
+div.topBarBackground {
+  position: absolute;
+  padding: 0px;
+  margin: 0px;
+  
+  height: 78px;
+  width: 100%;
+  
+  border-bottom-style:solid;
+  border-bottom-color:yellow;
+  border-bottom-width:4px;
+  
+  background-color: black;
+  opacity:.3;
+  filter:alpha(opacity=30);
+}
+
+#div_main {
+  width: 970px;
+  height: auto;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+
+
+/* Content */
+div.generalContentContainer {
+  position: absolute;
+  height: auto;
+  width: 700px;
+  margin-top: 5px;
+  
+  padding-left: 7px;
+  padding-right: 7px;
+  padding-bottom: 7px;
+  
+  border-style: solid;
+  border-width: 0px 1px 0px 0px;
+  border-color: white;
+}
+
+
+input.inputBoxStyle{
+  font-size: 25px;
+  width: 300px;
+
+  -moz-border-radius: 5px 5px 5px 5px;
+  -webkit-border-radius: 5px 5px 5px 5px;  
+  border-radius: 5px 5px 5px 5px;
+}
+
+.formLabel {
+  font-size:20px;
+  color:white;
+}
+
+span.titleFormat {
+  font-size: 40px;
+  color: white;
+}
+
+.detailFormat {
+  font-size: 15px;
+  color: white;
+}
+
+span.warningFormat {
+  font-size: 18px;
+  color: white;
+}
+
+.rightAligned {
+  margin-left: 50px;  
+  position: relative;
+}
+
+input.submitButton {
+  width: 100px;
+  height: 40px;
+  
+  font-size: 20px;
+  color: white;
+  
+  background-color: gray;
+  
+  border-style: solid;
+  border-color: white;
+  border-width: 1px;
+  
+  -moz-box-shadow: 0px 0px 7px 0px #111;
+  -webkit-box-shadow: 0px 0px 7px 0px #111;
+  box-shadow: 0px 0px 7px 0px #111;
+    
+  -moz-border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;  
+  border-radius: 10px 10px 10px 10px;
+}
+
+input.submitButton:hover {
+  background-color: #2298B8;
+}
+
+input.submitButton:active {
+  background-color: gray;
+  color: white;
+}
+
+input.normalButton {
+  float: right;
+  margin-top: 7px;
+  background-color: #2298B8;
+}
+
+input.normalButton:hover {
+  background-color: gray;
+}
+
+div.mutate_navBar {
+  float: right;
+}
+
